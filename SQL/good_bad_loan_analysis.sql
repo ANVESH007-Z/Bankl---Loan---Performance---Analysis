@@ -1,3 +1,47 @@
+/*
+====================================================================================================
+BANK LOAN ANALYSIS - GOOD LOAN VS BAD LOAN ANALYSIS
+====================================================================================================
+
+PURPOSE:
+This SQL script evaluates the quality of the loan portfolio by categorizing loans into
+Good Loans and Bad Loans based on their loan status.
+
+LOAN CLASSIFICATION:
+
+Good Loans:
+- Fully Paid
+- Current
+
+Bad Loans:
+- Charged Off
+
+KEY METRICS:
+
+Good Loan Analysis:
+1. Good Loan Percentage
+2. Good Loan Applications
+3. Good Loan Funded Amount
+4. Good Loan Total Amount Received
+
+Bad Loan Analysis:
+5. Bad Loan Percentage
+6. Bad Loan Applications
+7. Bad Loan Funded Amount
+8. Bad Loan Total Amount Received
+
+DATABASE:
+- PostgreSQL
+
+TABLE:
+- financial_loan
+
+BUSINESS OBJECTIVE:
+To assess portfolio health, measure credit risk, compare performing and non-performing
+loans, and support lending decisions through data-driven insights.
+
+====================================================================================================
+*/
 -- GOOD LOAN Vs BAD LOAN --
 -- Good Loan Application Percentage
 SELECT ROUND

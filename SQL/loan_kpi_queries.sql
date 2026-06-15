@@ -1,3 +1,43 @@
+/*
+====================================================================================================
+BANK LOAN ANALYSIS - KPI QUERIES
+====================================================================================================
+
+PURPOSE:
+This SQL script calculates the key performance indicators (KPIs) used in the Bank Loan Analysis
+Dashboard. The analysis provides insights into loan application trends, funding activity,
+repayment performance, interest rates, and borrower debt-to-income ratios.
+
+KEY METRICS:
+1. Total Loan Applications
+2. Month-to-Date (MTD) Loan Applications
+3. Previous Month-to-Date (PMTD) Loan Applications
+4. Total Funded Amount
+5. MTD Funded Amount
+6. PMTD Funded Amount
+7. Total Amount Received
+8. MTD Amount Received
+9. PMTD Amount Received
+10. Average Interest Rate
+11. MTD Average Interest Rate
+12. PMTD Average Interest Rate
+13. Average Debt-to-Income Ratio (DTI)
+14. MTD Average DTI
+15. PMTD Average DTI
+
+DATABASE:
+- PostgreSQL
+
+TABLE:
+- financial_loan
+
+BUSINESS OBJECTIVE:
+To monitor lending performance, evaluate borrower characteristics, track loan funding
+and repayment trends, and support data-driven decision-making through interactive
+Power BI dashboards.
+
+====================================================================================================
+*/
 SELECT * FROM public.financial_loan
 Order by id ASC
   
